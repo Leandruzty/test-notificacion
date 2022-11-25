@@ -17,7 +17,7 @@ function notify(){
 
     // Lanzar notificacion si ya esta autorizado el servicio
 
-    var notification = new Notification("Mi primer notificación");
+    var notification = new Notification("Tu pedido ya esta listo!");
 
   }else if(Notification.permission !== "denied"){
 
@@ -25,7 +25,7 @@ function notify(){
 
       if(Notification.permission === "granted"){
 
-        var notification = new Notification("Su pedido esta listo!");
+        var notification = new Notification("Sus pedidos seran notificados a partir de ahora");
 
       }
 
