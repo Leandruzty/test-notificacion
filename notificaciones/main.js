@@ -25,7 +25,7 @@ function notify(){
 
       if(Notification.permission === "granted"){
 
-        var notification = new Notification("Hola mundo !");
+        var notification = new Notification("Su pedido esta listo!");
 
       }
 
